@@ -66,8 +66,8 @@
       # External Traffic Policy:  Cluster
       # Events:                   <none>
   ## 8) create a second pod 
-  $ kubectl apply -f pod-blue.yml -n production
-  $ kubectl -n production describe svc service-nodeport-web
+    # $ kubectl apply -f pod-blue.yml -n production
+    # $ kubectl -n production describe svc service-nodeport-web
      # Name:                     service-nodeport-web
      # Namespace:                production
      # Labels:                   <none>
