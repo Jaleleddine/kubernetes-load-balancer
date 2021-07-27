@@ -30,7 +30,7 @@
       # NAME                   TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)          AGE
       # service-nodeport-web   NodePort   10.106.188.7   <none>        8080:30008/TCP   31s
  
-  ## 7) describe the service with two pods
+  ## 7) describe the service with one pods
     # $ kubectl -n production describe svc service-nodeport-web
       # Name:                     service-nodeport-web
       # Namespace:                production
@@ -50,6 +50,7 @@
       # Events:                   <none>
   ## 8) create a second pod 
       # $ kubectl apply -f pod-blue.yml -n production
+  ## 9) describe the service in the namespace production having two pods
       # $ kubectl -n production describe svc service-nodeport-web
           # Name:                     service-nodeport-web
           # Namespace:                production
@@ -67,3 +68,7 @@
           # Session Affinity:         None
           # External Traffic Policy:  Cluster
           # Events:                   <none>
+  ## 9) Access the service in minikube
+    # # minikube ip 
+        # -> 172.17.0.7
+        # http://172.17.0.7:30008/
