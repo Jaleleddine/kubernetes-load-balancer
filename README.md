@@ -68,7 +68,7 @@
           # Session Affinity:         None
           # External Traffic Policy:  Cluster
           # Events:                   <none>
-  ## 9) Access the service in minikube
+  ## 10) Access the service in minikube
     # # minikube ip 
         # -> 172.17.0.7
         # http://172.17.0.7:30008/
