@@ -74,13 +74,13 @@
           # Annotations:              <none>
           # Selector:                 app=web
           # Type:                     NodePort
-     # IP Families:              <none>
-     # IP:                       10.106.188.7
-     # IPs:                      10.106.188.7
-     # Port:                     <unset>  8080/TCP
-     # TargetPort:               8080/TCP
-     # NodePort:                 <unset>  30008/TCP
-     # Endpoints:                172.18.0.17:8080,172.18.0.18:8080
-     # Session Affinity:         None
-     # External Traffic Policy:  Cluster
-     # Events:                   <none>
+          # IP Families:              <none>
+          # IP:                       10.106.188.7
+          # IPs:                      10.106.188.7
+          # Port:                     <unset>  8080/TCP
+          # TargetPort:               8080/TCP
+          # NodePort:                 <unset>  30008/TCP
+          # Endpoints:                172.18.0.17:8080,172.18.0.18:8080
+          # Session Affinity:         None
+          # External Traffic Policy:  Cluster
+          # Events:                   <none>
